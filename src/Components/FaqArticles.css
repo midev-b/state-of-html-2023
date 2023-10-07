@@ -1,0 +1,18 @@
+.faq-container .faq {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.faq {
+  font-size: 20px;
+}
+.questions-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.question-container {
+  margin: 0 20px;
+}
+.question {
+  font-size: 12px;
+}

@@ -1,0 +1,26 @@
+.img-logo {
+  width: 400px;
+  height: auto;
+}
+p {
+  font-size: 10px;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+.continue-button p span {
+  font-size: 8px;
+  color: rgb(192, 193, 193);
+}
+.continue-button .continue-p {
+  padding: 1px 20px;
+  width: fit-content;
+  border-radius: 3px;
+  border: 1px solid white;
+  font-size: 12px;
+}
+.continue-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
