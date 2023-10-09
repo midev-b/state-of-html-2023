@@ -1,25 +1,12 @@
-import { useState } from "react";
+import { FirstPage } from "./Components/FirstPage.jsx";
+import { SecondPage } from "./Components2/SecondPage.jsx";
 
-import "./App.css";
-import { LogoArticle } from "./Components/LogoArticle";
-import { Header } from "./Components/Header";
-import { FaqArticles } from "./Components/FaqArticles";
-import { Footer } from "./Components/Footer";
-
-function App() {
+export default function App() {
   return (
-    <div>
-      <Header />
-
-      <div className="articles-container">
-        <LogoArticle />
-        <FaqArticles />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div>
-    </div>
+    <>
+      {/* <FirstPage /> */}
+      <SecondPage />
+    </>
   );
 }
-
-export default App;
+//
