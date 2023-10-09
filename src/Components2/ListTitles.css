@@ -1,0 +1,23 @@
+.title-container .p-title-container {
+  color: rgb(200, 197, 197);
+  font-size: 13px;
+  width: 160px;
+
+  transform: rotate(-45deg) translate(50px, -20px);
+}
+.circle-title {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: rgb(206, 204, 204) solid 0.5px;
+}
+.title-container {
+  width: 130px;
+  /* height: 200px; */
+}
+.list-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 80px;
+}
